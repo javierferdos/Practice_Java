@@ -1,9 +1,6 @@
 package org.ferstyle.ejemplo;
 
-import org.ferstyle.pooherencia.Alumno;
-import org.ferstyle.pooherencia.AlumnoInternacional;
-import org.ferstyle.pooherencia.Persona;
-import org.ferstyle.pooherencia.Profesor;
+import org.ferstyle.pooherencia.*;
 
 public class EjemploHerenciaConstructores {
     public static void main(String[] args) {
@@ -29,7 +26,11 @@ public class EjemploHerenciaConstructores {
         imprimir(alumno);
         imprimir(alumnoInt);
         imprimir(profesor);
+
+        System.out.println("Hola javier, lograste tu primer GITHUB FELICIDADES ! OWOWOWOOWOIWOWOOW");
     }
+
+
     public static void imprimir(Persona persona) {
         System.out.println("Nombre: " + persona.getNombre());
         System.out.println("Apellido: " + persona.getApellido());
